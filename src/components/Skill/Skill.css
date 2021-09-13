@@ -1,0 +1,20 @@
+.skill-container {
+  display: grid;
+  grid-gap: 20px;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+.skill-container ul li {
+  line-height: 35px;
+  color: #fff;
+}
+.skill-container ul li span {
+  color: #00cf5d;
+}
+@media (min-width: 768px) {
+  .skill-container {
+    grid-template-columns: repeat(2, auto);
+    margin-top: 100px;
+  }
+}
